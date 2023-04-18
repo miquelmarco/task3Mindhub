@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header>nav{
+    display: block;
+    display: flex;
+    align-content: center;
+    background-color: rgb(226, 140, 83);
+    width: 100%;
+    height: 5%;
+    position: sticky;
+    top:0px;
+    text-align: left;
+    border-bottom: dotted rgba(155, 75, 10, 0.897);
+}
+a{
+    margin: 1rem;
+    color: rgb(180, 54, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+a:hover{
+    Color: red;
+    transform: rotate(3deg);
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+nav>img{
+    position: absolute;
+    right: 1rem;
+}
+main{
+    background-color: rgb(207, 176, 140);
+    height: 95vh;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 1rem;
+    color: rgb(228, 116, 12);
+    font-size:xx-large;
+}
+h1:hover{
+    color:red;
+    transform:skew(10deg);
+}
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 0rem;
+    margin: 1rem;
+    color: rgb(196, 108, 26);
+    margin-bottom: 1.5rem;
+}
+.homeimg1{
+    display: flex;
+    width: 70rem;
+    height: 25rem;
+    padding: 0.5rem;
+    margin: auto;
+    background-color: rgb(194, 87, 37);
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.homeimg2{
+    display:inline-block;
+    width: 20rem;
+    height: 20rem;
+    padding: 0.5rem;
+    object-fit: cover;
+    background-color: rgb(194, 87, 37);
+    margin: 1rem;
+    border-radius: 1rem;
+}
+main>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: rgb(158, 67, 2);
+    padding: 0.5rem;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section>img{
+    width: 20rem;
+    height: 10rem;
+}
+section>p{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 10rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactimg{
+    height: 25rem;
+    width: 70%;
+    padding: 0.5rem;
+    object-fit: cover;
+    background-color: rgb(194, 87, 37);
+    margin: 1rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+.contacttxt{
+    width: 20rem;
+    height: 5rem;
+}
+#tel{
+    display: flex;
+    justify-content: right;
+    height: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    text-decoration: underline;
+}
+#mail{
+    display: flex;
+    justify-content: left;
+    height: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    text-decoration: underline;
+}
+#foocontact{
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+footer>p{
+    width: 100%; 
+}
+.benimg1{
+    width: 35rem;
+    height: 20rem;
+    margin: 1rem;
+    background-color: rgb(231, 161, 95);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.benimg2{
+    width: 35rem;
+    height: 20rem;
+    margin: 1rem;
+    background-color: rgb(231, 161, 95);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.allben{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.listben{
+    background-color: rgb(231, 161, 95);
+    padding: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: left;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 58, 6);
+    border-radius: 1rem;
+}
+li>ul{
+    color: rgb(158, 67, 2);
+}
+.tableinfo{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+}
+th, td{
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 2rem;
+}
+th{
+    color: rgb(255, 104, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(114, 78, 36);
+}
+td{
+    color: rgb(255, 104, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(88, 31, 9, 0.733);
+    font-weight: 500;
+}
+table{
+    border-style: double;
+    border-color: rgb(255, 136, 0);
+    border-radius: 1rem;
+    border-spacing: 1rem;  
+}
+h6{
+    display: none;
+}
