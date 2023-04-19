@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <title>Raffle</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html">HOME</a>
+            <a href="./aboutUs.html">ABOUT US</a>
+            <a href="./contact.html">CONTACT</a>
+            <a href="./information.html">MORE INFORMATION</a>
+            <a href="./benefitsTips.html">BENEFITS TIPS</a>
+            <a href="#">RAFFLE</a>
+            <img class="icon" src="../images/logo.png" alt="icon">
+        </nav>
+    </header>
+    <main class="rafflemain"> 
+        <h1>RAFFLE</h1>
+        <h2>You can participate in a raffle The Prize is a coffee pot!</h2>
+        <div class="rafflecontainer">
+            <div class="raffleimgcontainer">
+                <img class="raffleimg" src="../images/heart-coffee.jpg" alt="">
+                <img class="raffleimg" src="../images/cup-w-coffee.jpg" alt="">
+            </div>
+            <div class="formu">
+                <form class="raffleform" action="./show_data.html" method="get">
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="lastname">Second Name</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="colorpot">What color you would like the pot:</label>
+                        <select name="colorpot" id="colorpot">
+                            <option value="">Choose a color</option>
+                            <option value="green">Green</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="pink">Pink</option>
+                            <option value="brown">Brown</option>
+                            <option value="white">White</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="">Choose a country</option>
+                            <option value="arg">Argentina</option>
+                            <option value="chl">Chile</option>
+                            <option value="col">Colombia</option>
+                            <option value="uru">Uruguay</option>
+                            <option value="bra">Brazil</option>
+                            <option value="per">Perú</option>
+                            <option value="ecu">Ecuador</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Payments Options</legend>
+                        <label for="cash">Cash</label>
+                        <input type="radio" id="cash" name="payment" value="cash">
+                        <label for="cred">Credit Card</label>
+                        <input type="radio" id="cred" name="payment" value="cred">
+                        <label for="deb">Debit Card</label>
+                        <input type="radio" id="deb" name="payment" value="deb">
+                    </fieldset>
+                    <fieldset>
+                        <label for="services">Services</label>
+                        <textarea name="services" id="services" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="terms">I accept termns and conditions.</label>
+                        <input type="checkbox" id="terms" name="terms" value="accept">
+                    </fieldset>
+                    <input type="submit" name="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="rafflefooter">
+        <div class="rafflemap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.34514142084!2d-82.61908843695625!3d27.99468748406309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2scl!4v1681937292581!5m2!1ses!2scl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
