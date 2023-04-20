@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 header>nav{
-    display: block;
     display: flex;
-    align-content: center;
+    justify-content: space-evenly;
     background: rgb(180,148,58);
     background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
     width: 100%;
     height: 5%;
-    position: sticky;
     top:0px;
     text-align: left;
     border-bottom: dotted rgba(155, 75, 10, 0.897);
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 3rem;
 }
 a{
     margin: 1rem;
@@ -26,15 +29,6 @@ a{
 a:hover{
     Color: red;
     transform: rotate(3deg);
-}
-.icon{
-    width: 3rem;
-    height: 3rem;
-    margin: auto;
-}
-nav>img{
-    position: absolute;
-    right: 1rem;
 }
 main{
     background-color: rgb(207, 176, 140);
@@ -104,7 +98,6 @@ section>img{
     height: 10rem;
 }
 section>p{
-    display: inline-block;
     display: flex;
     align-items: center;
     text-align: center;
@@ -115,6 +108,8 @@ section>p{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(180,148,58);
+    background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
 }
 .contactimg{
     height: 25rem;
@@ -126,32 +121,27 @@ section>p{
     margin: 1rem;
     margin-top: 3rem;
     border-radius: 1rem;
+    display: flex;
 }
 .contacttxt{
     width: 20rem;
     height: 5rem;
 }
-#tel{
-    display: flex;
-    justify-content: right;
-    height: 2rem;
-    position: absolute;
-    bottom: 1rem;
-    text-decoration: underline;
-}
-#mail{
-    display: flex;
-    justify-content: left;
-    height: 2rem;
-    position: absolute;
-    bottom: 1rem;
-    text-decoration: underline;
-}
 #foocontact{
     font-style: oblique;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    background: rgb(180,148,58);
+    background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
+}
+.tel{
+    margin-left: 5rem;
+}
+.mail{
+    margin-right: 5rem;
+}
+.contactmain {
+    height: 89vh;
 }
 footer>p{
     width: 100%;
@@ -172,7 +162,7 @@ footer>p{
     background: rgb(180,148,58);
     background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 1rem;    
 }
 .allben{
     display: flex;
@@ -191,6 +181,17 @@ footer>p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(230, 58, 6);
     border-radius: 1rem;
+    width: 30vw;
+}
+.mainben{
+    background: rgb(180,148,58);
+    background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
+    border-radius: 1rem;
+    width: 40rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 li>ul{
     color: rgb(158, 67, 2);
@@ -252,7 +253,7 @@ height: 75vh;
 .raffleimg{
     border-radius: 1rem;
     margin: 0.5rem;
-    width: 15rem;
+    width: 20rem;
     height: 15rem;
     padding: 0.5vh;
     background: rgb(180,148,58);
@@ -261,6 +262,11 @@ height: 75vh;
 .raffleimgcontainer{
     display: flex;
     flex-direction:column;
+}
+.formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 iframe{
     height: 10rem;
