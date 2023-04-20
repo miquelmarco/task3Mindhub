@@ -3,21 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: center;
+    background: rgb(180,148,58);
+    background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
+    border-bottom: dotted rgba(155, 75, 10, 0.897);
+}
 header>nav{
     display: flex;
-    justify-content: space-evenly;
     background: rgb(180,148,58);
     background: linear-gradient(90deg, rgba(180,148,58,1) 0%, rgba(253,141,29,1) 50%, rgba(252,99,69,1) 100%);
     width: 100%;
     height: 5%;
     top:0px;
     text-align: left;
-    border-bottom: dotted rgba(155, 75, 10, 0.897);
 }
 .icon{
     width: 3rem;
     height: 3rem;
-    margin-left: 3rem;
 }
 a{
     margin: 1rem;
